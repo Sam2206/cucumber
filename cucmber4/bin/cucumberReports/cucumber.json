@@ -1,0 +1,382 @@
+[
+  {
+    "source": "^the user clicks on the BMI link$",
+    "steps": [
+      {
+        "name": "the user clicks on the BMI link",
+        "aggregatedDurations": {
+          "average": 0.00105928,
+          "median": 0.0006721
+        },
+        "durations": [
+          {
+            "duration": 0.0012206,
+            "location": "features/CalorieDetails.feature:8"
+          },
+          {
+            "duration": 0.0026489,
+            "location": "features/CalorieDetails.feature:21"
+          },
+          {
+            "duration": 0.0006721,
+            "location": "features/CalorieDetails.feature:21"
+          },
+          {
+            "duration": 0.0003067,
+            "location": "features/CalorieDetails.feature:37"
+          },
+          {
+            "duration": 0.0004481,
+            "location": "features/CalorieDetails.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the age as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user provides the age as 50",
+        "aggregatedDurations": {
+          "average": 0.00116375,
+          "median": 0.00116375
+        },
+        "durations": [
+          {
+            "duration": 0.0009959,
+            "location": "features/CalorieDetails.feature:9"
+          },
+          {
+            "duration": 0.0013316,
+            "location": "features/CalorieDetails.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "the user provides the age as 45",
+        "aggregatedDurations": {
+          "average": 0.0006764,
+          "median": 0.0006764
+        },
+        "durations": [
+          {
+            "duration": 0.0006764,
+            "location": "features/CalorieDetails.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the heightmeter as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user provides the heightmeter as 6",
+        "aggregatedDurations": {
+          "average": 0.00080315,
+          "median": 0.00080315
+        },
+        "durations": [
+          {
+            "duration": 0.000916,
+            "location": "features/CalorieDetails.feature:10"
+          },
+          {
+            "duration": 0.0006903,
+            "location": "features/CalorieDetails.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "the user provides the heightmeter as 5",
+        "aggregatedDurations": {
+          "average": 0.0008981,
+          "median": 0.0008981
+        },
+        "durations": [
+          {
+            "duration": 0.0008981,
+            "location": "features/CalorieDetails.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the user provides the following details",
+    "steps": [
+      {
+        "name": "the user provides the following details",
+        "aggregatedDurations": {
+          "average": 0.0009437,
+          "median": 0.0009437
+        },
+        "durations": [
+          {
+            "duration": 0.0009437,
+            "location": "features/CalorieDetails.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user performs BMI Calculation$",
+    "steps": [
+      {
+        "name": "the user performs BMI Calculation",
+        "aggregatedDurations": {
+          "average": 0.0006261,
+          "median": 0.0005432
+        },
+        "durations": [
+          {
+            "duration": 0.0010259,
+            "location": "features/CalorieDetails.feature:13"
+          },
+          {
+            "duration": 0.0004225,
+            "location": "features/CalorieDetails.feature:26"
+          },
+          {
+            "duration": 0.0003838,
+            "location": "features/CalorieDetails.feature:26"
+          },
+          {
+            "duration": 0.0007551,
+            "location": "features/CalorieDetails.feature:41"
+          },
+          {
+            "duration": 0.0005432,
+            "location": "features/CalorieDetails.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the user provides age as (\\d+), height as (\\d+), weight as (\\d+), sex as (.*?)$",
+    "steps": [
+      {
+        "name": "the user provides age as 50, height as 6, weight as 80, sex as male",
+        "aggregatedDurations": {
+          "average": 0.00056,
+          "median": 0.00056
+        },
+        "durations": [
+          {
+            "duration": 0.00056,
+            "location": "features/CalorieDetails.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user selects the sex as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user selects the sex as male",
+        "aggregatedDurations": {
+          "average": 0.0007599,
+          "median": 0.0007599
+        },
+        "durations": [
+          {
+            "duration": 0.000953,
+            "location": "features/CalorieDetails.feature:12"
+          },
+          {
+            "duration": 0.0005668,
+            "location": "features/CalorieDetails.feature:25"
+          }
+        ]
+      },
+      {
+        "name": "the user selects the sex as female",
+        "aggregatedDurations": {
+          "average": 0.0006967,
+          "median": 0.0006967
+        },
+        "durations": [
+          {
+            "duration": 0.0006967,
+            "location": "features/CalorieDetails.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be given the BMI Value$",
+    "steps": [
+      {
+        "name": "the user should be given the BMI Value",
+        "aggregatedDurations": {
+          "average": 0.00063342,
+          "median": 0.0005751
+        },
+        "durations": [
+          {
+            "duration": 0.0011359,
+            "location": "features/CalorieDetails.feature:14"
+          },
+          {
+            "duration": 0.000409,
+            "location": "features/CalorieDetails.feature:27"
+          },
+          {
+            "duration": 0.0005751,
+            "location": "features/CalorieDetails.feature:27"
+          },
+          {
+            "duration": 0.0007285,
+            "location": "features/CalorieDetails.feature:42"
+          },
+          {
+            "duration": 0.0003186,
+            "location": "features/CalorieDetails.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the weight as (\\d+)$",
+    "steps": [
+      {
+        "name": "the user provides the weight as 80",
+        "aggregatedDurations": {
+          "average": 0.00072905,
+          "median": 0.00072905
+        },
+        "durations": [
+          {
+            "duration": 0.0009635,
+            "location": "features/CalorieDetails.feature:11"
+          },
+          {
+            "duration": 0.0004946,
+            "location": "features/CalorieDetails.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "the user provides the weight as 70",
+        "aggregatedDurations": {
+          "average": 0.0005881,
+          "median": 0.0005881
+        },
+        "durations": [
+          {
+            "duration": 0.0005881,
+            "location": "features/CalorieDetails.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be given the BMI Category$",
+    "steps": [
+      {
+        "name": "the user should be given the BMI Category",
+        "aggregatedDurations": {
+          "average": 0.00056672,
+          "median": 0.0003854
+        },
+        "durations": [
+          {
+            "duration": 0.001175,
+            "location": "features/CalorieDetails.feature:15"
+          },
+          {
+            "duration": 0.0003739,
+            "location": "features/CalorieDetails.feature:28"
+          },
+          {
+            "duration": 0.0002812,
+            "location": "features/CalorieDetails.feature:28"
+          },
+          {
+            "duration": 0.0003854,
+            "location": "features/CalorieDetails.feature:43"
+          },
+          {
+            "duration": 0.0006181,
+            "location": "features/CalorieDetails.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user launches to Calorie home Page$",
+    "steps": [
+      {
+        "name": "the user launches to Calorie home Page",
+        "aggregatedDurations": {
+          "average": 0.00121464,
+          "median": 0.0006987
+        },
+        "durations": [
+          {
+            "duration": 0.0035701,
+            "location": "features/CalorieDetails.feature:7"
+          },
+          {
+            "duration": 0.0006987,
+            "location": "features/CalorieDetails.feature:20"
+          },
+          {
+            "duration": 0.0007313,
+            "location": "features/CalorieDetails.feature:20"
+          },
+          {
+            "duration": 0.0004768,
+            "location": "features/CalorieDetails.feature:36"
+          },
+          {
+            "duration": 0.0005963,
+            "location": "features/CalorieDetails.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user verifies the BMI Category$",
+    "steps": [
+      {
+        "name": "the user verifies the BMI Category",
+        "aggregatedDurations": {
+          "average": 0.00060294,
+          "median": 0.0003702
+        },
+        "durations": [
+          {
+            "duration": 0.0007476,
+            "location": "features/CalorieDetails.feature:16"
+          },
+          {
+            "duration": 0.0013522,
+            "location": "features/CalorieDetails.feature:29"
+          },
+          {
+            "duration": 0.0002568,
+            "location": "features/CalorieDetails.feature:29"
+          },
+          {
+            "duration": 0.0002879,
+            "location": "features/CalorieDetails.feature:44"
+          },
+          {
+            "duration": 0.0003702,
+            "location": "features/CalorieDetails.feature:53"
+          }
+        ]
+      }
+    ]
+  }
+]

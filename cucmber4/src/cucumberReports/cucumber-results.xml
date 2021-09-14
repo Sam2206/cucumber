@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0.091268">
+    <testcase classname="" name="Enter BMI details" time="0.042758">
+        <system-out><![CDATA[Given the user launches to Calorie home Page................................passed
+When the user clicks on the BMI link........................................passed
+And the user provides the age as 50.........................................passed
+And the user provides the heightmeter as 6..................................passed
+And the user provides the weight as 80......................................passed
+And the user selects the sex as male........................................passed
+And the user performs BMI Calculation.......................................passed
+Then the user should be given the BMI Value.................................passed
+And the user should be given the BMI Category...............................passed
+And the user verifies the BMI Category......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="Enter BMI details with multiple sets of data" time="0.020103">
+        <system-out><![CDATA[Given the user launches to Calorie home Page................................passed
+When the user clicks on the BMI link........................................passed
+And the user provides the age as 45.........................................passed
+And the user provides the heightmeter as 5..................................passed
+And the user provides the weight as 70......................................passed
+And the user selects the sex as female......................................passed
+And the user performs BMI Calculation.......................................passed
+Then the user should be given the BMI Value.................................passed
+And the user should be given the BMI Category...............................passed
+And the user verifies the BMI Category......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="Enter BMI details with multiple sets of data 2" time="0.012517">
+        <system-out><![CDATA[Given the user launches to Calorie home Page................................passed
+When the user clicks on the BMI link........................................passed
+And the user provides the age as 50.........................................passed
+And the user provides the heightmeter as 6..................................passed
+And the user provides the weight as 80......................................passed
+And the user selects the sex as male........................................passed
+And the user performs BMI Calculation.......................................passed
+Then the user should be given the BMI Value.................................passed
+And the user should be given the BMI Category...............................passed
+And the user verifies the BMI Category......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="Enter BMI details" time="0.007535">
+        <system-out><![CDATA[Given the user launches to Calorie home Page................................passed
+When the user clicks on the BMI link........................................passed
+And the user provides the following details.................................passed
+And the user performs BMI Calculation.......................................passed
+Then the user should be given the BMI Value.................................passed
+And the user should be given the BMI Category...............................passed
+And the user verifies the BMI Category......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="" name="Enter BMI details as Positional Parameters" time="0.008355">
+        <system-out><![CDATA[Given the user launches to Calorie home Page................................passed
+When the user clicks on the BMI link........................................passed
+And the user provides age as 50, height as 6, weight as 80, sex as male.....passed
+And the user performs BMI Calculation.......................................passed
+Then the user should be given the BMI Value.................................passed
+And the user should be given the BMI Category...............................passed
+And the user verifies the BMI Category......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
