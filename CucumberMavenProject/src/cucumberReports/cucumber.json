@@ -1,0 +1,382 @@
+[
+  {
+    "source": "^the user launches to Calorie home Page$",
+    "steps": [
+      {
+        "name": "the user launches to Calorie home Page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 4.0042E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0010017,
+            "location": "classpath:features/CalorieDetails.feature:7"
+          },
+          {
+            "duration": 0.0010004,
+            "location": "classpath:features/CalorieDetails.feature:20"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:20"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:36"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user clicks on the BMI link$",
+    "steps": [
+      {
+        "name": "the user clicks on the BMI link",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 2.0016E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:8"
+          },
+          {
+            "duration": 0.0010008,
+            "location": "classpath:features/CalorieDetails.feature:21"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:21"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:37"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the age as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user provides the age as 50",
+        "aggregatedDurations": {
+          "median": 9.9965E-4,
+          "average": 9.9965E-4
+        },
+        "durations": [
+          {
+            "duration": 9.994E-4,
+            "location": "classpath:features/CalorieDetails.feature:9"
+          },
+          {
+            "duration": 9.999E-4,
+            "location": "classpath:features/CalorieDetails.feature:22"
+          }
+        ]
+      },
+      {
+        "name": "the user provides the age as 45",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the heightmeter as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user provides the heightmeter as 6",
+        "aggregatedDurations": {
+          "median": 5.0005E-4,
+          "average": 5.0005E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0010001,
+            "location": "classpath:features/CalorieDetails.feature:10"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "the user provides the heightmeter as 5",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user provides the weight as (\\d+)$",
+    "steps": [
+      {
+        "name": "the user provides the weight as 80",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:11"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:24"
+          }
+        ]
+      },
+      {
+        "name": "the user provides the weight as 70",
+        "aggregatedDurations": {
+          "median": 0.0010007,
+          "average": 0.0010007
+        },
+        "durations": [
+          {
+            "duration": 0.0010007,
+            "location": "classpath:features/CalorieDetails.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user selects the sex as ([^\"]*)$",
+    "steps": [
+      {
+        "name": "the user selects the sex as male",
+        "aggregatedDurations": {
+          "median": 5.0095E-4,
+          "average": 5.0095E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0010019,
+            "location": "classpath:features/CalorieDetails.feature:12"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:25"
+          }
+        ]
+      },
+      {
+        "name": "the user selects the sex as female",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user performs BMI Calculation$",
+    "steps": [
+      {
+        "name": "the user performs BMI Calculation",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 2.0028E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:13"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:26"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:26"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:41"
+          },
+          {
+            "duration": 0.0010014,
+            "location": "classpath:features/CalorieDetails.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be given the BMI Value$",
+    "steps": [
+      {
+        "name": "the user should be given the BMI Value",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 2.0028E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0010014,
+            "location": "classpath:features/CalorieDetails.feature:14"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:27"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:27"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:42"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user should be given the BMI Category$",
+    "steps": [
+      {
+        "name": "the user should be given the BMI Category",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 2.0038E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:15"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:28"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:28"
+          },
+          {
+            "duration": 0.0010019,
+            "location": "classpath:features/CalorieDetails.feature:43"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the user verifies the BMI Category$",
+    "steps": [
+      {
+        "name": "the user verifies the BMI Category",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:16"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:29"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:29"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:44"
+          },
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the user provides the following details",
+    "steps": [
+      {
+        "name": "the user provides the following details",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "the user provides age as (\\d+), height as (\\d+), weight as (\\d+), sex as (.*?)$",
+    "steps": [
+      {
+        "name": "the user provides age as 50, height as 6, weight as 80, sex as male",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "classpath:features/CalorieDetails.feature:49"
+          }
+        ]
+      }
+    ]
+  }
+]
